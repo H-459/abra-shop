@@ -15,6 +15,7 @@ const Page = ({productTag}) =>{
     return (
 
         <>
+
         <styles.productFlexWrapper>
             {selectedItems.map((items,index) =>(<styles.productFlexItem key = {index} className= {items.name}>
                 <p><img src = {items.image} /></p>
@@ -22,7 +23,13 @@ const Page = ({productTag}) =>{
                 <p>{items.name}</p>
             </styles.productFlexItem>))}
         </styles.productFlexWrapper>
-        <Cart></Cart>
+
+         <styles.cart>
+            <Cart></Cart>
+        </styles.cart>
+
+
+       
         </>
     )
     
