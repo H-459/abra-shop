@@ -1,13 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import Page from './components/Page/main';
+import { useState } from 'react';
+import Page from './components/Page';
+import Header from './components/Header';
+
 
 function App() {
+  const [productTag, setProductTag] = useState("best_sellers");
+
+  const handleTagSelection = (tagFromButton) =>{
+    setProductTag(tagFromButton);
+
+  }
   return (
     <div className="App">
-      <Page />
+      <Header handleTagSelection = {handleTagSelection} />
+      <Page productTag = {productTag} />
+      
    
-    </div>
+    </div> 
   );
 }
 
