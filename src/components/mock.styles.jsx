@@ -5,6 +5,7 @@ grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(5, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
+margin-left:25px;
 `
 
 export const header_div1 = styled.div `  grid-area: 1 / 1 / 2 / 6;  `
