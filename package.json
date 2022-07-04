@@ -9,10 +9,18 @@
     "axios": "^0.27.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
+=======
+    "country-state-city": "^3.0.1",
+    "react-scripts": "5.0.1",
+    "package-list": "^0.0.3",
+    "axios": "^0.27.2",
+>>>>>>> e6650daf104d42dd707846aa81a10986e22959df
     "react-hook-form": "^7.32.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.5",
+    "@mui/base": "^5.0.0-alpha.87",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

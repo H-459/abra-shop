@@ -2,13 +2,16 @@
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
-    "projectToken": "",
+    "projectToken": "854c9ac181894c3db5d5067380b37fe62fdd934d26ba42cdba653ede4e8f2981",
+    "enableLicenseViolations": "true",
     "baseBranches": []
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
-    "useMendCheckNames": true
+    "useMendCheckNames": true,
+    "licenseCheckRunConclusionLevel": "failure",
+    "showWsInfo": "true"
   },
   "issueSettings": {
     "minSeverityLevel": "LOW",
@@ -20,3 +23,5 @@
     }
   }
 }
+
+
