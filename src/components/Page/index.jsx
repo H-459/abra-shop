@@ -1,5 +1,6 @@
-import {SHOPITEMS} from "../../utils/DataPoints";
 import { useState } from "react";
+import * as styles from "./styles"
+import {SHOPITEMS} from "../../utils/DataPoints";
 import {selectByTag} from "../../utils/utilFunctions.js"
 import Cart from "../Cart";
 
@@ -14,13 +15,21 @@ const Page = ({productTag}) =>{
     return (
 
         <>
-        
-        {selectedItems.map((items,index) =>(<div key = {index} className= {items.name}>
-            <p>{items.image}</p>
-            <p>{items.price}</p>
-            <p>{items.name}</p>
-        </div>))}
-        <Cart></Cart>
+
+        <styles.productFlexWrapper>
+            {selectedItems.map((items,index) =>(<styles.productFlexItem key = {index} className= {items.name}>
+                <p><img src = {items.image} /></p>
+                <p>{items.price}</p>
+                <p>{items.name}</p>
+            </styles.productFlexItem>))}
+        </styles.productFlexWrapper>
+
+         <styles.cart>
+            <Cart></Cart>
+        </styles.cart>
+
+
+       
         </>
     )
     
