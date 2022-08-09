@@ -14,7 +14,13 @@ export const flex_child_first = styled.div`
         margin-right: auto;
     font-size: 1.5em;`
 
+    export const flex_child_last = styled.div`
+
+        margin-left: auto;
+    font-size: 1.5em;`
+
 export const flexParent = styled.nav`
 	display:flex;
-	justify-content: flex-end
+	justify-content: flex-end;
+	width:98%;
 `

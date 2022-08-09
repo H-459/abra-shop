@@ -14,6 +14,7 @@ export const productFlexWrapper = styled.div`
     flex-wrap: wrap;
     max-width:70%;
     grid-area: 2 / 1 / 6 / 5;
+    margin-left: 20%;
    
 `;
 

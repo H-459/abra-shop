@@ -11,7 +11,7 @@ const Header = ({handleTagSelection}) => {
      
        
         {MENUITEMS.map((item, index) => <styles.flex_child><styles.headerButton key ={index} onClick={()=> handleTagSelection(item.tag)}>{item.name}</styles.headerButton></styles.flex_child> )}
-        <styles.flex_child><span> prof </span></styles.flex_child>
+        <styles.flex_child_last><span> prof </span></styles.flex_child_last>
         </styles.flexParent>
         
         </>
