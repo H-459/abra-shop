@@ -10,7 +10,7 @@
     "displayMode": "diff",
     "useMendCheckNames": true,
     "licenseCheckRunConclusionLevel": "failure",
-    "showWsInfo": "true"
+    "showWsInfo": "true"            
   },
   "issueSettings": {
     "minSeverityLevel": "LOW",
