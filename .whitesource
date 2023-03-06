@@ -3,7 +3,7 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "enableLicenseViolations": "true",    
-    "baseBranches": []
+    "baseBranches": []  
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
